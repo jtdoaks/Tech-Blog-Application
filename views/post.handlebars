@@ -1,0 +1,13 @@
+
+<div id="posts">
+
+{{#each posts as |post|}}
+
+
+<p>{{name}}:{{description}}</p>
+<p>Created by {{user.name}} on {{format_date date_created}}</p>
+
+{{/each}}
+
+
+</div>
